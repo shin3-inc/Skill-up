@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.heading::after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+header {
+	height: 70px;
+	width: 100%;
+	background-color: #EC715F;
+	box-sizing: border-box;
+}
+.header {
+    width: 1024px;
+    height: 70px;
+	margin: 0 auto;
+}
+.logo {
+	height: 70px;
+	float: left;
+}
+.nav-list {
+    display: block;
+	height: 70px;
+	font-size: 16px;
+	color: white;
+	margin-top: 20px;
+	list-style-type: disc;
+	float: right;
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 30px;
+    color: inherit;
+}
+.main-visual {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+.main-visual-contents {
+    color: #FAFAFA;
+    width: 40%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 200px;
+}
+.mv-theme {
+	font-size: 64px;
+}
+.mv-sentence {
+	font-size: 20px
+	padding-top: 1opx;
+}
+.background {
+	background-color: #ECEFF1;
+	width: 100%;
+}
+.portfolio {
+	width: 920px;
+	margin: 0 auto;
+	color: #000000;
+}
+.theme {
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 32px;
+	padding-top: 90px;
+	padding-bottom: 8px;
+}
+.sentence {
+	width: 800px;
+	margin: 0 auto;
+	font-size: 16px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.p-container {
+	width: 920px;
+	list-style-type: none;
+    padding-bottom: 90px;
+}
+.p-container-1 {
+	width: 300px;
+	height: 250px;
+	margin: 5px 5px 5px 0;
+	background-image: url(img/sketch.jpg);
+	float: left;
+	background-size: cover;
+}
+.p-container-2 {
+	width: 300px;
+	height: 250px;
+	margin: 5px 5px 5px 5px;
+	background-image: url(img/websuku.png);
+	background-position: center;
+	float: left;
+	background-size: cover;
+}
+.p-container-3 {
+	width: 300px;
+	height: 250px;
+	margin: 5px 0 5px 5px;
+	background-image: url(img/write.jpg);
+	float: left;
+	background-size: cover;
+}
+.p-container-4 {
+	width: 300px;
+	height: 250px;
+	margin: 5px 5px 5px 0;
+	background-image: url(img/webcamp.png);
+	background-position: center;
+	float: left;
+	background-size: cover;
+}
+.p-container-5 {
+	width: 300px;
+	height: 250px;
+	margin: 5px 5px 5px 5px;
+	background-image: url(img/talk.jpg);
+	float: left;
+	background-size: cover;
+}
+.p-container-6 {
+	width: 300px;
+	height: 250px;
+	margin: 5px 0 5px 5px;
+	background-image: url(img/webcamp-mother.png);
+	background-position: center;
+	float: left;
+	background-size: cover;
+}
+.feature {
+	width: 980px;
+	margin: 0 auto;
+	color: #000000;
+}
+.f-container {
+	width: 980px;
+	height: auto;
+	padding-bottom: 90px;
+	margin-top: 30px;
+}
+.f-c-1 {
+	width: 320px;
+	height: auto;
+	float: left;
+}
+i {
+	font-size: 60px;
+}
+.f-c-image {
+    margin: 0 auto;
+    text-align: center;
+}
+.f-c-theme {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+.f-c-sentence {
+	font-size: 16px;
+    margin: 0 auto;
+    text-align: left;
+}
+.f-c-2 {
+	width: 320px;
+	height: auto;
+	float: left;
+	margin: 0 10px 0 10px;
+}
+.f-c-3 {
+	width: 320px;
+	height: auto;
+	float: left;
+}
+
+footer {
+	height: 60px;
+	background-color: #EC715F;
+	text-align: center;
+}
+.footer {
+	display: block;
+	width: 150px;
+	height: 60px;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #FAFAFA
+}
